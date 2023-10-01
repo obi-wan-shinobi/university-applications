@@ -1,0 +1,174 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{newtxmath,newtxtext}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \parindent=0pt% don't indent paragraphs in the title block
+  \centering
+  {\Large \bfseries\textsc{\@title}}
+  \HRule\par%
+  \textit{\@author \hfill \@date}
+  \par
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{Statement of Purpose}
+\author{Shreyas Kalvankar}
+\date{M.S. Applicant}
+
+\begin{document}
+  \maketitle% prints the title block
+  \thispagestyle{empty}
+My research interest lies in Theoretical Computer Science and Mathematics,
+especially Algorithms, Complexity theory, Probability, and Machine Learning. I
+am intrigued by the mathematics and optimization that drives Deep Learning.
+Building on a solid background from my undergraduate research in the same
+topic, I am applying to the M.S. in Computer Science program at Carnegie Mellon
+University to study and conduct research in Theoretical Computer Science and
+Machine Learning with the top researchers in the field.
+\vspace{6pt}
+
+While studying computer science in high school, my professor always quoted
+Dijkstra saying, “Computer science is no more about computers than astronomy is
+about telescopes.” This idea truly resonated with me while studying machine
+learning at the Intelligent Systems lab. I understood how neural networks
+function as a series of linear transformations and how a computer is only a
+tool to help implement this complex mathematical model. Studying convolution as
+a mathematical operation and noticing how vital a role FFTs play in its
+implementation galvanized me to study math and complexity theory. 
+\vspace{6pt}
+
+This fascination for mathematics and algorithms gravitated toward Deep Learning
+and optimization theory. As a sophomore, I decided to work on a project to
+apply CNNs in Galaxy Morphology Classification, which resulted in my first
+authored research paper. Building on another similar research that pursued a
+5-class classification, we sought to expand the limit to 7 classes to encompass
+most galaxy morphologies. I learned how it is possible to gain insight into the
+behavior of something so complicated incrementally. I set up the entire
+training pipeline and the model architectures, enabling robust training of 7
+EfficientNet models. We achieved close to 94\% accuracy on seven different
+classes and reached a very low RMSE on the loss, which was better than the
+second position on the Kaggle Public Leaderboard. This study has been cited
+multiple times since. The research helped me strengthen my knowledge about
+advanced linear algebra, and the work of Behrmann in \textit{Invertible
+Residual Networks} helped me understand the applications of mathematical
+concepts like the Jacobian and \textit{Lipschitz} continuity and increased my
+interest in working in the field. This project helped me realize my love for
+the mathematics behind the field, and a peek into backpropagation algorithms
+further cemented it. 
+\vspace{6pt}
+
+To continue exploring the field of astronomy and astrophysics and pursue my
+passion for contributing to the open-source community, I started working on
+various projects in physics. In the Spring of 2020, while simultaneously
+finishing my undergraduate coursework, I became part of an open-source project
+called EinsteinPY. It was a pure python package dedicated to studying General
+Relativity and gravitational physics. Our work eventually became a journal
+paper published in the Astrophysics Source Code Library. The module has been
+used several times in various research projects relating to gravitational and
+relativistic astrophysics.I worked on adding the Reissner–Nordström metric --a
+static solution to the Einstein-Maxwell field equations for the gravitational
+field of a charged, non-rotating, and spherically symmetric body of mass M. I
+also corrected a critical flaw in the implementations of the Kerr \&
+Kerr-Newman metrics which were being used in several other places throughout
+the module. I immensely enjoyed working on this project as it exposed me to
+very complex concepts in Theoretical Physics, which initially seemed enigmatic
+to me. 
+\vspace{6pt}
+
+Inspired by the work of Peh, G. X.; Marshland, K (Astronomical Image
+colorization and Super-Resolution using Residual Encoders and GANs), I started
+working with Dr. Snehal Kamalapur in the Intelligent Systems lab. I led a team
+of four and we developed a process to colorize and up-scale unprocessed
+astronomical images that lie dormant and unseen in extensive space archives. I
+was fortunate enough to present this study under the title “Astronomical Image
+colorization and up-scaling with Conditional Generative Adversarial Networks”
+at the Informatik 2022 conference’s Astro ML workshop in Hamburg. The paper is
+published in the Lecture Notes in Informatics (LNI), Gesellschaft für
+Informatik, Bonn 2022 and was my second publication as a primary author. The
+project helped improve my research skills, critical thinking, and
+decision-making. In order to curate a dataset for the project, I created a web
+scraper to collect data from openly available archives of the Hubble telescope,
+like the Legacy Archive, Heritage project, and the main website. One of the
+most exciting parts of the project was the literature. The work of Isola et al.
+in Pix2Pix GAN was incredibly insightful in highlighting the importance of
+optimization of training algorithms. Being mindful of these resource-intensive
+algorithms, I set up the training pipeline that enabled us to iterate faster on
+various architectures. This project and the literature on GANs introduced me to
+concepts in Game Theory like Nash equilibrium and changed my perspective on
+mathematical optimization.
+\vspace{6pt}
+
+Besides helping me discover my primary area of interest, my research experience
+has given me an extensive, eclectic background. In the spring of 2018, I joined
+the Robotics club to participate in the ABU Robocon competition. In the team of
+forty members, I worked as one of the three developers in charge of programming
+a quadruped robot. I was tasked with writing a program for creating a stable
+gait using reverse kinematics. Although the mechanical calculations were
+challenging, I managed to create and implement code that dynamically adjusted
+the actuators on every joint of the limb. It was my first exposure to applied
+mathematics, mechanics, electronics, and robotics. 
+\vspace{6pt}
+
+In addition to research, I strive to be a reliable source of knowledge in any
+field I can. To this end, I have held many teaching and tutoring roles. As a
+committee head of the Computer Society of India Club at my institution, I took
+several short lectures on High-Performance Computing and Neural Networks. After
+my first year at the Robotics club, I aligned myself in more of a teaching role
+to start mentoring the team's junior members in computer, electronics, and
+mechanics. In order to qualify for the ABU Robocon Competition of 2019, the
+team of mentors and I guided the Computer team and the Design \& Assembly team
+in creating a couple of wheeled robots. These robots could maneuver around the
+arena and perform tasks like launching and catching projectiles with great
+precision using an intricate contraption of pneumatic actuators and DC motors. 
+\vspace{6pt}
+
+By the end of my senior year in college, I was awarded the title of Best
+Outgoing Student of the Computer Engineering Department. I graduated summa cum
+laude with an undergraduate degree in Computer Engineering and received the
+Award for Academic Excellence among 1200 graduands. After obtaining my
+undergraduate degree, I worked as a Machine Learning Engineer at Relfor Labs
+Pvt. Ltd. and worked in audio data processing. I created novel neural
+architectures for classifying audio data using Mel spectrograms as inputs.
+After three months, I switched to a consulting role as an ML Scientist. Shortly
+after that --to expand my gamut of skills in Software Engineering-- I started
+working as a Software Developer at a type foundry in London called Dalton Maag.
+Although not particularly my forte, I explored the type design and font
+engineering world and quickly started applying my skillset to the field. One of
+the long-standing problems in the type industry is creating new CJK (Chinese,
+Japanese and Korean) typefaces. Together, these scripts contain more than ten
+thousand characters, and designing a glyph for each is time-consuming and
+expensive. I proposed a solution for generating these CJK fonts using Genetic
+Algorithms. Under the guidance of my manager, I set on to create a proof of
+concept. We implemented an intelligent system capable of learning design
+parameters from a set of input glyphs and generating glyphs it had never seen
+before. Besides this project, I also upgraded the pricing model in the
+company’s internally used web application to generate quotes and project plans
+efficiently. Although it was a great experience, I realized my predilection was
+towards problems involving optimization theory and went back to working on the
+CJK project.  
+\vspace{6pt}
+
+Carnegie Mellon University's diverse faculty provides plenty of opportunities
+that would cater to my aspirations. Much of my undergraduate research
+experience has been in gaining a deeper understanding of stochastic
+optimization and deep learning, and I would like to keep working on it in
+graduate school. I would be excited to work with Professors Nina Balcan, Weina
+Wang and David Woodruff. Dr. Prasad Tetali’s, Dr. Richard Peng’s, and Dr. Alan
+Frieze’s independent works in Combinatorics and Graph Theory seem particularly
+fascinating. I would like to work on similar --purely mathematical problems in
+computer science and the Theory of Computation. Overall, I believe my research
+and academic interests align well with all these Carnegie Mellon professors. I
+am determined to pursue a research career in Machine Learning, Theoretical
+Computer Science, and Math and contribute to its advancement. After graduate
+school, I would like to work in an academic setting to pursue a Ph.D. and then
+conduct original research as a post-doc researcher. 
+
+
+\end{document}
