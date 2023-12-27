@@ -1,0 +1,37 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bapat et~al.(2020)Bapat, Saha, Bhatt, Jain, Jain, Vela, Khandelwal,
+  Shivottam, Ma, Ng, Kerhalkar, Sarode, Sharma, Gupta, Gupta, Tyagi, Rustagi,
+  Singh, Bansal, Tayal, Manhas, Reyna, Kumar, Dixit, Kumar, Mishra, Jamgade,
+  Singh, Sanjay, Shaikh, Vidyarthi, K, Gandham, Vashistha, Das, Saurabh,
+  Kalvankar, Tarone, Mangat, Garg, Gautam, Srinivasan, Gautam, Singh,
+  Salampuria, Yauney, Gupte, Shenoy, and Chan]{bapat2020einsteinpy}
+S.~Bapat, R.~Saha, B.~Bhatt, S.~Jain, A.~Jain, S.~O. Vela, P.~Khandelwal,
+  J.~Shivottam, J.~Ma, G.~S. Ng, P.~Kerhalkar, H.~S. Sarode, R.~Sharma,
+  M.~Gupta, D.~Gupta, T.~Tyagi, T.~Rustagi, V.~Singh, S.~Bansal, N.~Tayal,
+  A.~Manhas, R.~Reyna, G.~Kumar, G.~Dixit, R.~Kumar, S.~Mishra, A.~Jamgade,
+  R.~Singh, R.~Sanjay, K.~Shaikh, B.~Vidyarthi, S.~R.~N. K, V.~Gandham,
+  N.~Vashistha, A.~Das, Saurabh, S.~Kalvankar, G.~Tarone, A.~Mangat, S.~Garg,
+  B.~Gautam, S.~Srinivasan, A.~Gautam, S.~K. Singh, S.~Salampuria, Z.~Yauney,
+  N.~Gupte, G.~Shenoy, and M.~Y. Chan.
+\newblock Einsteinpy: A community python package for general relativity, 2020.
+
+\bibitem[Kalvankar et~al.(2020)Kalvankar, Pandit, and
+  Parwate]{kalvankar2020galaxy}
+S.~Kalvankar, H.~Pandit, and P.~Parwate.
+\newblock Galaxy morphology classification using efficientnet architectures,
+  2020.
+
+\bibitem[Kalvankar et~al.(2022)Kalvankar, Pandit, Parwate, Patil, and
+  Kamalapur]{kalvankar2022astronomical}
+S.~Kalvankar, H.~Pandit, P.~Parwate, A.~Patil, and S.~Kamalapur.
+\newblock Astronomical image colorization and up-scaling with conditional
+  generative adversarial networks.
+\newblock \emph{INFORMATIK 2022}, 2022.
+
+\end{thebibliography}
