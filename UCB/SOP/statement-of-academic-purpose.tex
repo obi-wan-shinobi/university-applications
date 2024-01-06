@@ -1,13 +1,14 @@
 \documentclass[11pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=1in]{geometry}
+\usepackage[left=1in, right=1in, top=0.5in, bottom=0.5in]{geometry}
 
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
 
 \makeatletter% since there's an at-sign (@) in the command name
+\setlength{\parskip}{5pt}
 \renewcommand{\@maketitle}{%
   \parindent=0pt% don't indent paragraphs in the title block
   \centering
@@ -25,9 +26,9 @@
 \begin{document}
   \maketitle% prints the title block
   \thispagestyle{empty}
-  \vspace{16pt}
+  \vspace{5pt}
 
-My research interests lie in uncovering the mathematics that drives Machine
+\hspace{0.25in}My research interests lie in uncovering the mathematics that drives Machine
 Learning and deep learning and their theoretical nature. What are the
 theoretical foundations explaining the success of deep networks in approximating
 complex functions, and are there inherent limits to their expressiveness? What
@@ -36,98 +37,104 @@ potential applications of learned representations in various domains, such as
 computer vision, natural language processing, and speech recognition? How do we
 address the challenges of interpretability and explainability in learned
 representations? I aim to explore these problems and develop an understanding of
-the fundamental theoretical limits of Machine Learning. I am particularly
-interested in leveraging this knowledge and effectively applying these
-algorithms to build intelligent systems to solve problems in scientific domains
-and expedite research efforts in AI for science.
+the fundamental theoretical limits of Machine Learning. With this goal in mind,
+I want to pursue my Master’s in Information Systems Management at UC Berkeley. I
+am particularly interested in effectively applying these algorithms to build
+intelligent systems to conduct research in physics and mathematics to solve
+problems such as approximating numerical computations using neural networks,
+exoplanet discovery, assisted theorem proving, etc.
 
-My undergraduate research endeavors have been in applying deep learning
-techniques to astronomy and astrophysics, which are undergoing significant
-transformations brought about by exponential growth in data collection. This
-influx of data usually needs to be extensively processed to extract useful
-information. I attempted to solve this problem using deep learning algorithms
-and along with my colleagues, worked on a project to apply CNNs for Galaxy
-Morphology Classification, which subsequently turned into my first authored
-research paper. We sought to create a 7-class system encompassing most galaxy
-morphologies. I set up the entire training pipeline and the model architectures,
-enabling robust training of 7 EfficientNet models. Our results were better than
-those at the second position on the Kaggle Public Leaderboard, effectively
-making it the second-best submission. This study has been cited multiple times
-since This project made me realize the potential impact intelligent systems can
-have on our society. 
+\hspace{0.25in}My undergraduate research endeavors have been in applying deep learning
+techniques to astronomy and astrophysics, a domain that is undergoing
+significant transformations brought about by exponential growth in our abilities
+to collect and process data. I attempted to solve this problem using deep
+learning algorithms and, along with my colleagues, worked on a project to apply
+CNNs for Galaxy Morphology Classification, which subsequently turned into my
+first authored research paper. Galaxy morphologies are studied by astronomers to
+study dark matter distribution, galaxy evolution, and galaxy interactions. The
+problem involved correctly classifying galaxy images into various morphologies
+and also predicting the presence of certain features like rings, spirals, etc.
+We sought to create a 7-class system encompassing most galaxy morphologies. I
+set up the entire training pipeline and the model architectures, enabling robust
+training of 7 EfficientNet models. Our results were better than those at the
+second position on the Kaggle Public Leaderboard, effectively making it the
+second-best submission. This project made me realize the impact intelligent
+systems can have in streamlining scientific research. 
 
-I kept exploring more applications of such systems to astronomy. I started
-working with Dr. Snehal Kamalapur in the Intelligent Systems Lab and looked into
+ \hspace{0.25in}I continued exploring more applications of such systems to astronomy and started
+working with Dr. Snehal Kamalapur in the Intelligent Systems Lab. I looked into
 developing an efficient process to colorize and up-scale unprocessed
 astronomical images that lie dormant and unseen in extensive space archives. I
-was fortunate enough to present this study under the title \textit{“Astronomical
-Image Colorization and Up-scaling with Conditional Generative Adversarial
-Networks”}  at the Informatik 2022 conference’s Astro ML workshop in Hamburg.
-The paper was published in the \textit{Lecture Notes in Informatics (LNI),
-Gesellschaft für Informatik, Bonn 2022}, and was my second publication as a
-primary author. The project helped improve my research skills, critical
-thinking, and decision-making. I was more mindful of designing the training
-pipeline because of the limits on resource utilization.
+was fortunate to present this study at the \textit{Informatik 2022} conference’s Astro ML
+workshop in Hamburg. My role as the project lead was a significant learning
+experience that taught me various aspects of management, communication, and
+project planning. Through this project, I honed my research skills, nurtured my
+critical thinking abilities, and sharpened my decision-making capabilities. 
 
-These projects shaped my thinking and my research started gravitating toward
-developing systems for scientific problems. Inspired by this, I started
-contributing to an open-source project called EinsteinPy. EinsteinPy is an
-open-source pure Python package dedicated to the study of problems arising in
-General Relativity and gravitational physics. Using EinsteinPy, it is possible
-to approach problems symbolically as well as numerically. Working on problems
-motivated by the challenges in science and engineering requires understanding
-other fields like numerical methods, computational geometry, etc. I am
-particularly interested in pursuing this area of research at the Berkeley AI
-Research Lab. Prof. Dr. Krishnapriyan’s interests in the development of
-physics-inspired machine learning methods seem to align perfectly with mine and
-I would like to explore more such research at the BAIR Lab.
+ \hspace{0.25in}My interest in this field expanded my research thinking beyond the confines of
+ML. I started contributing to an open-source project called EinsteinPy.
+EinsteinPy is an open-source pure Python package that studies problems arising
+in General Relativity and gravitational physics. My work specifically involved
+incorporating various symbolic computations, such as the Reissner–Nordström
+metric and calculations for the event horizon and ergosphere of a Kerr-Newmann
+black hole. Working on problems motivated by the challenges in science and
+engineering requires understanding other fields like numerical methods,
+computational geometry, etc. I am particularly interested in pursuing this area
+of research at the Berkeley AI Research Lab. Prof. Dr. Krishnapriyan’s interests
+in developing physics-inspired machine learning methods seem to align perfectly
+with mine, and I would like to explore more such research at the BAIR Lab.
 
-After graduation, I started working as a Machine Learning Engineer and later as
-a Machine Learning Consultant at a start-up called Relfor Labs. During my time
-there, I mainly worked on applications of deep learning to audio data analysis
-and classification. I set up the ML pipelines and developed novel architectures
-that were designed specifically for the use case. While working on various ML
-projects or projects involving large amounts of data, I have often run into the
-problem of managing and understanding it. I have experienced the problems of
-automating an end-to-end ML pipeline which can be sustainable in the long term.
-There are various problems like data quality and consistency, model drift,
-version control, debugging, etc. My experience in developing ML models and
-designing ML pipelines and the problems that I have faced have also motivated me
-to address these problems by building tools for simplifying datasets and ML
-processes. I have followed the work of Prof. Dr. Parameswaran, and his student
-Miss. Shankar and I want to contribute to their efforts of simplifying data
-science and building tools to effectively manage ML pipelines. 
+ \hspace{0.25in}After completing my degree, I embarked on my professional journey, starting as a
+Machine Learning Engineer and later transitioning to a Machine Learning
+Consultant role at the startup Relfor Labs. My primary focus revolved around
+applying deep learning to audio data analysis and classification by devising
+novel architectures. I worked on designing a system for pre-processing large
+amounts of raw audio data by converting it into mel spectrograms, refining the
+labels. I set up an end-to-end training pipeline to streamline experimentation.
+Throughout my work on this and various other ML and data-intensive projects, I
+frequently encountered the challenge of managing and comprehending extensive
+datasets. I have experienced firsthand the complexities of automating an
+end-to-end ML pipeline which can be sustainable in the long term, including data
+quality and consistency issues, model drift, version control, and debugging. My
+experience in developing ML models and designing ML pipelines, along with my
+challenges, has motivated me to tackle these issues by creating tools that
+streamline data management and ML processes. I have followed the work of Prof.
+Dr. Parameswaran and his student Ms. Shankar and I want to contribute to their
+efforts of simplifying data science and building tools to manage ML pipelines
+effectively. 
 
-For the past two years, I have been working as a full-time Software Developer at
-a type-design studio in London called Dalton Maag. Soon after I started working
-at Dalton Maag, I became part of a project to design a proof-of-concept system
-for the automatic generation of CJK glyphs using genetic algorithms. Witnessing
-how data can be harnessed to develop intelligent systems across a wide spectrum
-of disciplines is remarkable. My exposure to the industry has significantly
-influenced my interests. I have developed a strong passion for crafting
-comprehensive systems that address the specific requirements of businesses,
-particularly those that rely on the effective utilization of data and
-information. One notable example of such a system is Pricebot, which serves as a
-means to translate the intricate nuances of glyphs within a typeface into a
-coherent pricing model. Pricebot is adept at generating quotes based on a range
-of criteria, including the number of font weights, axes, and supported scripts.
-This tool is invaluable in delivering consistent and precise results, preventing
-project overruns and unforeseen expenses. Additionally, it liberates designers
-from the challenging and error-prone task of manual quote creation, saving both
-time and resources.
+ \hspace{0.25in}I've been a full-time Software Developer at Dalton Maag, a type-design studio in
+London, for the past two years. Shortly after joining, I became involved in a
+project to design a proof-of-concept system that utilizes genetic algorithms to
+generate CJK glyphs automatically. Because of the sheer volume of these glyphs;
+often ranging in thousands, designing and drawing them is an expensive,
+time-consuming task. I was responsible for creating a framework that could learn
+from a few hundred glyphs and draw the remaining ones in the same style. This
+experience highlighted the incredible potential of harnessing data to create
+intelligent systems across various fields, profoundly influencing my interests.
 
-The potential for innovation and problem-solving appears boundless when we
-consider the transformative impact of harnessing data to create smarter, more
-efficient solutions. This continuous journey of exploration and discovery in the
-realm of intelligent systems captivates me and holds the promise of shaping a
-brighter and more interconnected future.
+ \hspace{0.25in}My exposure to the industry has ignited a strong passion for crafting
+comprehensive systems tailored to meet the specific needs of businesses,
+particularly those reliant on effective data and information utilization. One
+such system that I worked on, Pricebot, stands out as a prime example.  I was
+responsible for developing and integrating the pricing model which is used to
+create project quotes and plans by understanding the business needs. This tool
+completely automates a previously manual process and consistently delivers
+precise results which effectively prevents project overruns and unforeseen
+expenses, cutting down planning time significantly and saving valuable
+resources.
 
-The interdisciplinary nature of the MIMS program aligns perfectly with my
-diverse interests. My goal is to leverage the mathematical foundations of
-machine learning to apply AI to scientific applications, developing tools that
-streamline data management and systems for automating business processes through
-information systems. My determination to pursue a career in research is
-unwavering, and I aspire to work in an academic setting and eventually pursue a
-Ph.D.
+ \hspace{0.25in}My goal is to leverage the mathematical foundations of machine learning to apply
+AI to scientific applications, developing tools that streamline data management
+and systems for automating business processes through information systems. The
+MIMS program at the School of Information is a unique blend of data science,
+social good and technology. The interdisciplinary nature of the program makes it
+possible to marry multiple domains together and use information to build
+technology that has real impact. Conversations with an I-School alumnus,
+Rajvardhan Oak, have convinced me that the MIMS program would prepare me well
+for research careers in the industry, or further doctoral studies. My
+determination to pursue a research career is unwavering, and I aspire to work in
+an academic setting and eventually pursue a Ph.D. Thank you for considering me
+as a prospective student at your university.
 
 \end{document}
